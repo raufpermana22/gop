@@ -1,4 +1,4 @@
-runtime="58 minute"
+runtime="55 minute"
 endtime=$(date -ud "$runtime" +%s)
 
 while [[ $(date -u +%s) -le $endtime ]]
